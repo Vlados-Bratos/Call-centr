@@ -24,6 +24,7 @@ namespace Call_centr
 
         private void Vhod_button_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Добро пожаловать!");
             Glavnya f2 = new Glavnya();
             f2.Show();
             this.Hide();
