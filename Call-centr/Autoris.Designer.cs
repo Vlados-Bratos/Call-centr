@@ -46,7 +46,7 @@
             this.Login.AutoSize = true;
             this.Login.Location = new System.Drawing.Point(101, 50);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(54, 21);
+            this.Login.Size = new System.Drawing.Size(69, 28);
             this.Login.TabIndex = 1;
             this.Login.Text = "Логин";
             // 
@@ -55,7 +55,7 @@
             this.Passwrd.AutoSize = true;
             this.Passwrd.Location = new System.Drawing.Point(101, 165);
             this.Passwrd.Name = "Passwrd";
-            this.Passwrd.Size = new System.Drawing.Size(63, 21);
+            this.Passwrd.Size = new System.Drawing.Size(81, 28);
             this.Passwrd.TabIndex = 2;
             this.Passwrd.Text = "Пароль";
             // 
@@ -63,14 +63,14 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(105, 81);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(150, 29);
+            this.textBox1.Size = new System.Drawing.Size(150, 34);
             this.textBox1.TabIndex = 3;
             // 
             // Password_Texbox
             // 
             this.Password_Texbox.Location = new System.Drawing.Point(105, 196);
             this.Password_Texbox.Name = "Password_Texbox";
-            this.Password_Texbox.Size = new System.Drawing.Size(150, 29);
+            this.Password_Texbox.Size = new System.Drawing.Size(150, 34);
             this.Password_Texbox.TabIndex = 4;
             // 
             // Vhod_button
@@ -82,6 +82,7 @@
             this.Vhod_button.TabIndex = 5;
             this.Vhod_button.Text = "Вход";
             this.Vhod_button.UseVisualStyleBackColor = false;
+            this.Vhod_button.Click += new System.EventHandler(this.Vhod_button_Click);
             // 
             // Close_button
             // 
@@ -116,10 +117,10 @@
             // 
             // Authoriz
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(334, 361);
+            this.ClientSize = new System.Drawing.Size(332, 353);
             this.ControlBox = false;
             this.Controls.Add(this.Close_button);
             this.Controls.Add(this.Vhod_button);

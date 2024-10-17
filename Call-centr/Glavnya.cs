@@ -16,5 +16,12 @@ namespace Call_centr
         {
             InitializeComponent();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Authoriz f1 = new Authoriz();
+            f1.Show();
+            this.Hide();
+        }
     }
 }

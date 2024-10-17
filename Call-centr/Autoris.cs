@@ -19,7 +19,14 @@ namespace Call_centr
 
         private void Close_button_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
+        }
+
+        private void Vhod_button_Click(object sender, EventArgs e)
+        {
+            Glavnya f2 = new Glavnya();
+            f2.Show();
+            this.Hide();
         }
     }
 }
